@@ -5,7 +5,7 @@ const router = require("express").Router()
 const Book = require("./Model/book")
 
 router.get("/books",async (req,res)=>{
-    var book = await Book.find()
+//     var book = await Book.find()
     res.send("Hello from Books API")
 //     res.status(200).json({
 //         msg:book
