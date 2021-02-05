@@ -10,6 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
+     "heroku-prebuild": "npm install -f",
+    "heroku-postbuild": "npm run prod",
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
